@@ -1,0 +1,12 @@
+**Imersão Python - do Excel à Análise de Dados**
+
+5 aulas imersas em Google Sheets e Python promovidas pela Alura:
+
+- Aula 1 -  Análise Exploratória com Google Sheets - Análise e manipulação de dados através de uma planilha da Bolsa de Valores do Brasil (B3) pelo Google Sheets, explorando fórmulas e expressões similares ao Excel, como porcentagem,soma, divisão, multiplicação, PROCV/VLOOKUP e IF/SE.
+
+- Aula 2 e 3 - Gráficos e Análises com Google Colab e Python Pandas - Manipulação de Dados e Criação de Gráficos com bibliotecas Python - Início da análise e manipulação de dados com Python. Refazendo todas as manipulações feitas no Google Sheets através da programação e da linguagem Python no Google Colabs (poderia ter utilizado o vs code também). Importação da biblioteca pandas para ler dados da planilha Excel (do Google Sheets), utilizando o método "read" e armazenando em um DataFrame. Utilização do método "copy" para imprimir tabelas específicas; "rename" para renomear coolunas. Manipulação através de expressões e operadores matemáticos. Utilização do método "merge" para combinar dois ou mais DataFrames em um único, ou seja, integrando uma coluna da tabela Principal com uma coluna da tabela "Total de Ações"; método "drop" para deletar colunas; "options.display.float_format" para especificar a formatação dos valores float, como por exemplo, exibir os números com duas casas decimais; função "lambda"juntamente com a função "apply" para aplicar uma operação junto com o "if"; "groupby junto com função soma "sum"; e finalmente o "px.bar" da biblioteca
+plotly.express, foi utilizado para criar um gráfico interativo e estatístico de Variação em reais por resultado.
+
+- Aula 4 - Análises Avançadas de Ações e Gráficos de Velas - Utilização de bibliotecas como matplotlib, yfinance, plotly.graph_objects e  plotly.subplots, oferecendo grande variedade de gráficos, desde os mais simples até os mais complexos, visualizações de dados financeiros como o do Yahoo Finance por exemplo, criação de gráficos interativos e supplots em uma única figura.
+
+- Aula 5 - Previsão de Séries Temporais de Ações - Na aula 5 foi utilizada a biblioteca Prophet para a  previsões automáticas de dados de séries temporais que exibem padrões sazonais e tendências não lineares. A principal característica do Prophet é sua facilidade de uso e sua capacidade de lidar com muitos dos desafios comuns encontrados na modelagem de séries temporais, como feriados, lacunas nos dados e mudanças repentinas nas tendências.
