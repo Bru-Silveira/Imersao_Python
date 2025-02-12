@@ -1,12 +1,60 @@
-**Imersão Python - do Excel à Análise de Dados**
+# 📊 Imersão Python - Do Excel à Análise de Dados
 
-5 aulas imersas em Google Sheets e Python promovidas pela Alura:
+Este repositório contém materiais e anotações da imersão "Python - Do Excel à Análise de Dados" promovida pela Alura. A imersão incluiu 5 aulas focadas na análise e manipulação de dados utilizando Google Sheets e Python.
 
-- Aula 1 -  Análise Exploratória com Google Sheets - Análise e manipulação de dados através de uma planilha da Bolsa de Valores do Brasil (B3) pelo Google Sheets, explorando fórmulas e expressões similares ao Excel, como porcentagem,soma, divisão, multiplicação, PROCV/VLOOKUP e IF/SE.
+## 📌 Conteúdo das Aulas
 
-- Aula 2 e 3 - Gráficos e Análises com Google Colab e Python Pandas - Manipulação de Dados e Criação de Gráficos com bibliotecas Python - Início da análise e manipulação de dados com Python. Refazendo todas as manipulações feitas no Google Sheets através da programação e da linguagem Python no Google Colabs (poderia ter utilizado o vs code também). Importação da biblioteca pandas para ler dados da planilha Excel (do Google Sheets), utilizando o método "read" e armazenando em um DataFrame. Utilização do método "copy" para imprimir tabelas específicas; "rename" para renomear coolunas. Manipulação através de expressões e operadores matemáticos. Utilização do método "merge" para combinar dois ou mais DataFrames em um único, ou seja, integrando uma coluna da tabela Principal com uma coluna da tabela "Total de Ações"; método "drop" para deletar colunas; "options.display.float_format" para especificar a formatação dos valores float, como por exemplo, exibir os números com duas casas decimais; função "lambda"juntamente com a função "apply" para aplicar uma operação junto com o "if"; "groupby junto com função soma "sum"; e finalmente o "px.bar" da biblioteca
-plotly.express, foi utilizado para criar um gráfico interativo e estatístico de Variação em reais por resultado.
+### 📈 Aula 1 - Análise Exploratória com Google Sheets
+Análise e manipulação de dados utilizando uma planilha da Bolsa de Valores do Brasil (B3) no Google Sheets. Foram exploradas fórmulas e expressões similares ao Excel, como:
+- Porcentagem, soma, divisão, multiplicação
+- PROCV/VLOOKUP
+- IF/SE
 
-- Aula 4 - Análises Avançadas de Ações e Gráficos de Velas - Utilização de bibliotecas como matplotlib, yfinance, plotly.graph_objects e  plotly.subplots, oferecendo grande variedade de gráficos, desde os mais simples até os mais complexos, visualizações de dados financeiros como o do Yahoo Finance por exemplo, criação de gráficos interativos e supplots em uma única figura.
+### 📊 Aula 2 e 3 - Gráficos e Análises com Google Colab e Pandas
+Utilização do Python no Google Colab para refazer manipulações feitas no Google Sheets, utilizando a biblioteca Pandas:
+- Importação de dados do Google Sheets/Excel (método `read`)
+- Armazenamento em DataFrames
+- Manipulação de tabelas com `copy`, `rename`, `drop`
+- Combinação de DataFrames com `merge`
+- Formatação de valores float com `options.display.float_format`
+- Uso de `lambda` e `apply` para operações condicionais
+- Agrupamento de dados com `groupby` e `sum`
+- Criação de gráficos interativos com `plotly.express` (`px.bar`)
 
-- Aula 5 - Previsão de Séries Temporais de Ações - Na aula 5 foi utilizada a biblioteca Prophet para a  previsões automáticas de dados de séries temporais que exibem padrões sazonais e tendências não lineares. A principal característica do Prophet é sua facilidade de uso e sua capacidade de lidar com muitos dos desafios comuns encontrados na modelagem de séries temporais, como feriados, lacunas nos dados e mudanças repentinas nas tendências.
+### 📉 Aula 4 - Análises Avançadas de Ações e Gráficos de Velas
+Exploração de bibliotecas para visualização de dados financeiros:
+- `matplotlib`, `yfinance`, `plotly.graph_objects` e `plotly.subplots`
+- Gráficos de velas (candlestick)
+- Visualizações interativas para análise de tendências
+
+### 🔮 Aula 5 - Previsão de Séries Temporais de Ações
+Utilização da biblioteca Prophet para previsão automática de séries temporais:
+- Modelagem de tendências e padrões sazonais
+- Tratamento de feriados, lacunas nos dados e mudanças abruptas
+
+## 🛠️ Tecnologias Utilizadas
+- Google Sheets
+- Python (Google Colab e VS Code)
+- Pandas
+- Plotly
+- Matplotlib
+- yFinance
+- Prophet
+
+## 🚀 Como Usar
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+2. Instale as dependências necessárias:
+   ```bash
+   pip install pandas plotly matplotlib yfinance prophet
+   ```
+3. Execute os notebooks no Jupyter Notebook ou Google Colab.
+
+## 📩 Contato
+Caso tenha dúvidas ou sugestões, sinta-se à vontade para entrar em contato ou abrir uma issue neste repositório.
+
+---
+Este projeto foi desenvolvido durante a Imersão Python promovida pela [Alura](https://www.alura.com.br/).
+
